@@ -35,7 +35,7 @@ function executarBuscaBinaria() {
     resultado1.textContent = `Valor encontrado!`;
     resultado2.textContent = `Índice: ${indice}`;
   } else {
-    resultado.textContent = "Valor não encontrado no array";
+    resultado1.textContent = "Valor não encontrado no array";
   }
 }
 
